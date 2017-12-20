@@ -9,7 +9,6 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
-  border-radius: 20px;
   border-top: 50px solid lightgray;
   border-left: 60px solid lightgray;
   border-right: 60px solid lightgray;
@@ -41,7 +40,6 @@ p {
  width: 100%;
  border-bottom: 1px solid royalblue;
  margin: 0;
- outline-color: royalblue;
 }
 .nav1 ul {
   width: 100%;
@@ -69,14 +67,11 @@ p {
 .info ul {
   list-style-type: circle;
   text-align: center;
-  border-radius: 20px;
   border-left: 60px solid lightgray;
   border-right: 60px solid lightgray;
   border-bottom: 50px solid lightgray;
   margin-top: 0;
   padding-bottom: 20px;
-
-
 }
 .info ul li a:visited {
   color: royalblue;
