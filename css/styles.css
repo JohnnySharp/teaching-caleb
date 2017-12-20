@@ -1,0 +1,117 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  border-radius: 20px;
+  border-top: 50px solid lightgray;
+  border-left: 60px solid lightgray;
+  border-right: 60px solid lightgray;
+}
+
+.header {
+  margin: 0;
+  background-color: royalblue;
+  color: white;
+  position: relative;
+  height: 90px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Main top */
+.nav1 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ position: relative;
+ font-size: 15px;
+ text-align: left;
+ height: 40px;
+ font-weight: bold;
+ text-transform: uppercase;
+ width: 100%;
+ border-bottom: 1px solid royalblue;
+ margin: 0;
+ outline-color: royalblue;
+}
+.nav1 ul {
+  width: 100%;
+  list-style-type: none;
+}
+.nav1 ul li {
+  float: left;
+}
+.nav1 ul li a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 105px;
+}
+.nav1 ul li a:visited {
+  color: royalblue;
+}
+.nav1 ul li a:hover {
+  color: lightblue;
+}
+
+/* Main Bottom */
+.info {
+  position: relative;
+}
+.info ul {
+  list-style-type: circle;
+  text-align: center;
+  border-radius: 20px;
+  border-left: 60px solid lightgray;
+  border-right: 60px solid lightgray;
+  border-bottom: 50px solid lightgray;
+  margin-top: 0;
+  padding-bottom: 20px;
+
+
+}
+.info ul li a:visited {
+  color: royalblue;
+}
+.info ul li a:hover {
+  color: lightblue;
+}
+
+/*Grid Images*/
+.nav2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: red;
+  justify-content: center;
+}
+
+img {
+ width: 100%;
+ height: 100%;
+}
+
+
+.footer {
+ display: inline-block;
+ width: 100%;
+ background-color: lightgray;
+ text-align: center;
+ height: 40px;
+ padding-bottom: 15px;
+ top: 0;
+ left: 0;
+ right: 0;
+}
