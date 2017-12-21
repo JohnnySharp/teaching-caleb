@@ -4,6 +4,10 @@ body, html {
   height: 100%;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 p {
   text-align: center;
   padding-top: 20px;
@@ -27,7 +31,7 @@ p {
   padding-top: 20px;
 }
 
-/* Main top */
+/* Top Nav Bar*/
 .nav1 {
  padding-top: 10px;
  padding-bottom: 10px;
@@ -58,9 +62,10 @@ p {
 }
 .nav1 ul li a:hover {
   color: lightblue;
+  text-decoration: none;
 }
 
-/* Main Bottom */
+/* Main */
 .info {
   position: relative;
 }
@@ -72,31 +77,82 @@ p {
   border-bottom: 50px solid lightgray;
   margin-top: 0;
   padding-bottom: 20px;
+
 }
 .info ul li a:visited {
   color: royalblue;
 }
 .info ul li a:hover {
   color: lightblue;
+  text-decoration: none;
 }
 
 /*Grid Images*/
 .nav2 {
-  position: relative;
+  width: 100%;
+  height: 700px;
+  border: 2px solid black;
+  /* position: relative; */
   display: grid;
   grid-template-columns: 300px 300px;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 300px 300px;
   grid-gap: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   background-color: red;
   justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav2 a {
+  color: black;
+}
+.nav2 a:visited {
+  color: black;
+}
+.nav2 a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 img {
- width: 100%;
- height: 100%;
+  width: 290px;
+  height: 290px;
 }
+
+.box  {
+}
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+ .b {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+ }
+
+ .c {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 2;
+   grid-row-end: 3;
+
+ }
+
+ .d {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 3;
+ }
+
+
 
 
 .footer {
