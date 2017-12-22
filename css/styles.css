@@ -2,14 +2,10 @@ body, html {
   padding: 0;
   margin: 0;
   height: 100%;
-}
-
-html {
-  box-sizing: border-box;
+  background-color: lightblue;
 }
 
 .header {
-  margin: 0;
   background-color: royalblue;
   color: white;
   position: relative;
@@ -23,17 +19,13 @@ html {
 
 /* Top Nav Bar*/
 .nav1 {
- padding-top: 10px;
- padding-bottom: 10px;
  position: relative;
  font-size: 15px;
- text-align: left;
  height: 40px;
  font-weight: bold;
  text-transform: uppercase;
  width: 100%;
  border-bottom: 1px solid royalblue;
- margin: 0;
 }
 .nav1 ul {
   width: 100%;
@@ -44,7 +36,6 @@ html {
 }
 .nav1 ul li a {
   text-decoration: none;
-  padding: 10px;
   margin: 105px;
 }
 .nav1 ul li a:visited {
@@ -57,12 +48,14 @@ html {
 
 /* Main */
 p {
+  margin-left: 130px;
+  margin-right: 130px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: 60px solid lightgray;
-  border-left: 60px solid lightgray;
-  border-right: 60px solid lightgray;
+  border-top: 60px solid gray;
+  border-left: 60px solid gray;
+  border-right: 60px solid gray;
 }
 
 .info {
@@ -70,11 +63,13 @@ p {
   height: 540px;
 }
 .info ul {
+  margin-left: 130px;
+  margin-right: 130px;
   list-style-type: none;
   text-align: center;
-  border-left: 60px solid lightgray;
-  border-right: 60px solid lightgray;
-  border-bottom: 60px solid lightgray;
+  border-left: 60px solid gray;
+  border-right: 60px solid gray;
+  border-bottom: 60px solid gray;
   padding-bottom: 20px;
 }
 .info ul li a:visited {
@@ -87,7 +82,10 @@ p {
 
 /*Grid Images*/
 .nav2 {
-  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 10px;
   height: 700px;
   border: 2px solid black;
   display: grid;
@@ -97,15 +95,15 @@ p {
   background-color: red;
   justify-content: center;
   align-content: center;
-  text-align: center;
   font-weight: bold;
   font-size: 16px;
+  border-radius: 5px;
 }
 .nav2 a {
-  color: black;
+  color: white;
 }
 .nav2 a:visited {
-  color: black;
+  color: white;
 }
 .nav2 a:hover {
   color: white;
@@ -115,18 +113,34 @@ p {
 img {
   width: 290px;
   height: 290px;
+  border-radius: 5px;
 }
 
 .box  {
-
+ float: left;
+ position: relative;
 }
 
-.a {
+ .bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  transform: translate(0px, 0px);
+  width: 50%;
+  background-color: black;
+  font-size: 16px;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+
+/* .a {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 
  .b {
    grid-column-start: 2;
@@ -148,15 +162,15 @@ img {
    grid-column-end: 3;
    grid-row-start: 2;
    grid-row-end: 3;
- }
-
+ } */
 
 
 
 .footer {
  display: inline-block;
  width: 100%;
- background-color: lightgray;
+ background-color: gray;
+ color: white;
  text-align: center;
  height: 40px;
  padding-top: 5px;
