@@ -3,73 +3,86 @@
 
 <head>
   <title>Practice</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="style/css" href="css/styles.css">
 </head>
 
 <body>
 
-  <div class="header">
-    <h1>Healthy Life</h1>
-  </div>
+  <nav class="navbar navbar-fixed-top nav1">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Healthy Life</a>
+			</div>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	      <ul class="nav navbar-nav">
+	        <li><a href="https://www.bodybuilding.com/category/workouts">Workouts</a></li>
+	        <li><a href="https://www.bodybuilding.com/exercises/">Exercises</a></li>
+	        <li><a href="https://www.bodybuilding.com/category/diet-plans">Diet</a></li>
+	        <li><a href="https://www.bodybuilding.com/category/meal-planning">Meal Plan</a></li>
+	      </ul>
+	    </div>
+		</div>
+  </nav>
 
-  <div class="nav1">
-    <ul>
-      <li><a href="https://www.bodybuilding.com/category/workouts">Workouts</a></li>
-      <li><a href="https://www.bodybuilding.com/exercises/">Exercises</a></li>
-      <li><a href="https://www.bodybuilding.com/category/diet-plans">Diet</a></li>
-      <li><a href="https://www.bodybuilding.com/category/meal-planning">Meal Plan</a></li>
-    </ul>
-  </div>
-
-  <div class="info">
-    <p>Diet and Exercise together are key to reaching ones <i>personal</i> health and wellness goals.<br> Exercise is an important part of a healthy lifestyle. Exercise prevents health problems,<br> builds strength, boosts energy, and can help you reduce
-      stress. It can also help you<br> maintain a healthy body weight and curb your appetite.
-    </p>
-    <ul><u><b>Exercise can:</b></u>
-      <li>Reduce your risk of heart disease, high blood pressure, osteoporosis, diabetes, and obesity.</li>
-      <li>Keep joints, tendons, and ligaments flexible, which makes it easier to move around and decreases<br> your chance of falling.</li>
-      <li>Reduce some of the effects of aging, especially the discomfort of osteoarthritis.</li>
-      <li>Contribute to mental well-being and help treat depression.</li>
-      <li><mark>Help relieve stress and anxiety.</mark></li>
-      <li>Increase energy and endurance.</li>
-      <li><a href="http://www.health.com/health/gallery/0,,20459221,00.html">Improve sleep.</a></li>
-      <li>Help maintain a normal weight by increasing your metabolism <small>(the rate you burn calories).</small></li>
-    </ul>
-  </div>
-
-  <div class="nav2">
-    <div class="box a">
-      <a href="https://www.bodybuilding.com/category/workouts">
-        <img src="assets/images/workout-pic.jpg" width="250" height="250">
-        <div class="bottom-left">Workouts</div>
-      </a>
+  <main role="main" class="container">
+    <div class="info">
+      <p>Diet and Exercise together are key to reaching ones <i>personal</i> health and wellness goals.<br> Exercise is an important part of a healthy lifestyle. Exercise prevents health problems,<br> builds strength, boosts energy, and can help you reduce
+        stress. It can also help you<br> maintain a healthy body weight and curb your appetite.
+      </p>
+      <ul><u><b>Exercise can:</b></u>
+        <li>Reduce your risk of heart disease, high blood pressure, osteoporosis, diabetes, and obesity.</li>
+        <li>Keep joints, tendons, and ligaments flexible, which makes it easier to move around and decreases<br> your chance of falling.</li>
+        <li>Reduce some of the effects of aging, especially the discomfort of osteoarthritis.</li>
+        <li>Contribute to mental well-being and help treat depression.</li>
+        <li><mark>Help relieve stress and anxiety.</mark></li>
+        <li>Increase energy and endurance.</li>
+        <li><a href="http://www.health.com/health/gallery/0,,20459221,00.html">Improve sleep.</a></li>
+        <li>Help maintain a normal weight by increasing your metabolism <small>(the rate you burn calories).</small></li>
+      </ul>
     </div>
-    <div class="box b">
-      <a href="https://www.bodybuilding.com/exercises/">
-         <img src="assets/images/exercise-pic.jpg" width="250" height="250">
-         <div class="bottom-left">Exercises</div>
-       </a>
-    </div>
-    <div class="box c">
-      <a href="https://www.bodybuilding.com/category/diet-plans">
-         <img src="assets/images/diet-pic.jpg" width="250" height="250">
-         <div class="bottom-left">Diets</div>
-       </a>
-    </div>
-    <div class="box d">
-      <a href="https://www.bodybuilding.com/category/meal-planning">
-         <img src="assets/images/mealplan-pic.png" width="250" height="250">
-         <div class="bottom-left">Meal Plans</div>
-       </a>
-    </div>
-  </div>
 
+    <div class="well nav2">
+      <div class="box a">
+        <a href="https://www.bodybuilding.com/category/workouts">
+	        <img src="assets/images/workout-pic.jpg">
+					<div class="caption-text">Workouts</div>
+	      </a>
+      </div>
+      <div class="box b">
+        <a href="https://www.bodybuilding.com/exercises/">
+	         <img src="assets/images/exercise-pic.jpg">
+					 <div class="caption-text">Exercises</div>
+	       </a>
+      </div>
+      <div class="box c">
+        <a href="https://www.bodybuilding.com/category/diet-plans">
+	         <img src="assets/images/diet-pic.jpg">
+					 <div class="caption-text">Diets</div>
+	       </a>
+      </div>
+      <div class="box d">
+        <a href="https://www.bodybuilding.com/category/meal-planning">
+	         <img src="assets/images/mealplan-pic.png">
+					 <div class="caption-text">Meal Plans</div>
+	       </a>
+      </div>
+    </div>
+  </main>
 
+  <footer class="footer">
+		<div class="container">
+			<h4>Healthy Life</h4>
+		</div>
+  </footer>
 
-  <div class="footer">
-    <h4>Healthy Life</h4>
-  </div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
