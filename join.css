@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 .label {
   margin-left: 5px;
   font-size: 15px;
+  vertical-align: middle;
 }
 
 /* middle body */
@@ -97,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .training h1 {
   margin-left: 90px;
+  font-size: 60px;
 }
 
 
