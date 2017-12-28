@@ -1,170 +1,174 @@
-<!Doctype html>
-<html>
+body, html {
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
 
-<head>
-  <title>Healthy Life &#10072; Join Now</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="style/css" href="join.css">
-</head>
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: impact;
+}
 
-<!-- top navbar -->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="healthyhome.html"><span class="primary-color">Healthy Life</span></a>
-    </div>
+/* brand colors */
+.primary-color {
+  color: royalblue;
+}
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="aboutus.html">About Us <span class="sr-only">(current)</span></a></li>
-        <li><a href="healthyblog.html">Blog</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose One <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#personal-training"><span class="primary-color">Personal Training <span class="glyphicon glyphicon-fire" aria-hidden="true"></span></span></a></li>
-            <li><a href="#nutrtion"><span class="primary-color">Nutrition Assistance</span></a></li>
-            <li><a href="#"><span class="primary-color">Supplements</span></a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="https://yelp.com"><span class="primary-color">Customer Reviews</span></a></li><!-- link to yelp -->
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+.secondary-color {
+  color: lightgray;
+}
 
-<!-- top body -->
-<div class="top">
-  <div class="top-body">
-    <div class="left-pic">
-      <img src="trainer-pic.jpg">
-    </div>
-      <div class="caption"><a href="#personal-training">Personal Training</a><span class="label label-success">Most Popular</span></div>
-  </div>
-    <div class="top-body">
-      <div class="center-pic">
-        <img  src="nutrition-pic.jpg">
-      </div>
-        <div class="caption"><a href="#nutrition">Nutrition Assistance</a></div>
-    </div>
-  <div class="top-body">
-    <div class="right-pic">
-      <img src="fintess-supplement.jpg">
-    </div>
-    <div class="caption"><a href="#supplements">Supplements</a></div>
- </div>
-</div>
+/* navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-header .navbar-brand  {
+  font-family: impact;
+  font-size: 26px;
+}
 
-<!-- middle -->
- <!-- personal-training -->
-<div><a name="personal-training"></a></div>
-  <div class="option-head">
-    <h1><span class="primary-color">Personal Training</span><br><small> Choose Your Plan</small></h1>
-  </div>
-  <div class="options">
-    <div class="plan">
-      <ul>
-        <li>Basic</li>
-        <li>$ 15.95 / month</li>
-        <li>Access</li>
-        <li>Jump Start<br>Training Program</li>
-        <li>Pool - Hot Tub - Sauna</li>
-        <li>10% Merch. Discount</li>
-        <li><a href="https://victoryfitnesscenter.net/product/basic-personal-training-east-club-30-min/" class="button">Sign Up</a></li>
-      </ul>
-    </div>
-    <div class="plan">
-      <ul>
-        <li style="background-color: royalblue">Pro</li>
-        <li>$ 25.95 / month</li>
-        <li>Access</li>
-        <li>Group Aerobics<br>Classes</li>
-        <li>Pool - Hot Tub - Sauna</li>
-        <li>10% Merch. Discount</li>
-        <li><a href="https://victoryfitnesscenter.net/product/basic-personal-training-east-club-30-min/" class="button">Sign Up</a></li>
-      </ul>
-    </div>
-    <div class="plan">
-      <ul>
-        <li>Premium</li>
-        <li>$ 55.95 / month</li>
-        <li>Access</li>
-        <li>Unlimited<br>Small Group Training</li>
-        <li>Pool - Hot Tub - Sauna</li>
-        <li>10% Merch. Discount</li>
-        <li><a href="https://victoryfitnesscenter.net/product/basic-personal-training-east-club-30-min/" class="button">Sign Up</a></li>
-      </ul>
-    </div>
-  </div>
-<!-- nutrition -->
-<div><a name="nutrition"></a></div>
-  <div class="option-head">
-    <h1><span class="primary-color">Nutrition Assistance</span><br><small>Help Where You Need It Most</small></h1>
-  </div>
+/* top body */
+.top {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  top: 60px;
+  background-color: lightgray;
+  margin-bottom: 160px;
+  border-bottom: 1px solid gray;
+}
+.top-body {
+  float: left;
+  width: 320px;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.left-pic img {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom:10px;
+  box-shadow: 0 0 0 6px gray;
+}
+.center-pic img {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-bottom:10px;
+  box-shadow: 0 0 0 6px gray;
+}
+.right-pic img {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom:10px;
+  box-shadow: 0 0 0 6px gray;
+}
 
+.caption {
+  text-align: center;
+  font-size: 25px;
+  font-family: impact;
+}
+.caption a {
+  color: black;
+  text-decoration: underline;
+}
+.caption a:visited {
+  text-decoration: none;
+}
+.caption a:hover {
+  text-decoration: none;
+}
+.label {
+  margin-left: 5px;
+  font-size: 15px;
+  vertical-align: middle;
+}
 
+/* option head */
+.option-head {
+  position: relative;
+  width: 100%;
+}
+.option-head h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* training options */
+.options {
+  width: 100%;
+  height: 500px;
+  padding-left: 250px;
+  margin-bottom: 160px;
+  border-bottom: 1px solid lightgray;
+}
+.plan ul {
+  float: left;
+  list-style-type: none;
+  width: 250px;
+  text-align: center;
+}
+.plan ul li:first-of-type {
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-top: 15px;
+}
+.plan ul li:nth-child(2) {
+  background-color: gainsboro;
+  height: auto;
+  padding-top: 10px;
+}
+.plan ul li {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+}
+.plan ul li:last-of-type {
+  background-color: lightgray;
+  height: 50px;
+  padding-top: 15px;
+}
+.button {
+  background-color: royalblue;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition-duration: 1s;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5);
+}
+li .button {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* nutrition options */
 
 
-<footer>
-</footer>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-</html>
 
+
+
+
+
+
+
+footer {
+
+}
