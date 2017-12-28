@@ -1,0 +1,117 @@
+body, html {
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: impact;
+}
+
+/* brand primary color */
+.primary-color {
+  color: royalblue;
+}
+
+/* navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-header .navbar-brand  {
+  font-family: impact;
+  font-size: 26px;
+}
+
+/* top body */
+.top {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  top: 60px;
+  background-color: lightgray;
+  margin-bottom: 160px;
+  border-bottom: 1px solid gray;
+}
+.top-body {
+  float: left;
+  width: 320px;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.left-pic img {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom:10px;
+  box-shadow: 0 0 0 6px gray;
+}
+.center-pic img {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 6px gray;
+}
+.right-pic img {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 6px gray;
+}
+.caption {
+  text-align: center;
+  font-size: 25px;
+  font-family: impact;
+}
+.caption a {
+  color: black;
+  text-decoration: underline;
+}
+.caption a:visited {
+  text-decoration: none;
+}
+.caption a:hover {
+  text-decoration: none;
+}
+.label {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+/* middle body */
+.training {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.training h1 {
+  margin-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+}
