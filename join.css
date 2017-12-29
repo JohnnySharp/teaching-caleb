@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 700px;
   top: 60px;
   background-color: whitesmoke;
-  margin-bottom: 160px;
+  margin-bottom: 150px;
   border-bottom: 1px solid gainsboro;
 }
 .top-body {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   vertical-align: middle;
 }
-
+/* // option types // */
 /* option head */
 .option-head {
   position: relative;
@@ -101,17 +101,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .option-head h1 {
-  display: inline-block;
-  vertical-align: top;
   font-size: 50px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding-top: 60px;
 }
 /* training options */
 .options {
   width: 100%;
-  height: 750px;
+  height: 500px;
   padding-left: 250px;
-  margin-bottom: 160px;
+  padding-bottom: 80px;
   border-bottom: 1px solid gainsboro;
 }
 .plan ul {
@@ -161,55 +161,76 @@ a:link {
   text-decoration: none;
 }
 
+
+/* nutrition */
+.btn-primary {
+  background-color: royalblue;
+}
 .subscriptions {
-  width: 100%;
-  height: auto;
   border-bottom: 1px solid gainsboro;
   text-align: center;
+  padding-bottom: 80px;
 }
 .subscription-type  {
   display: inline-block;
   vertical-align: top;
+  padding: 0 10px;
+}
+.subscription-type h2, .subscription-type h3 {
+  font-family: initial;
 }
 #monthly,#yearly {
-  width: 500px;
+  padding: 10px;
   list-style-type: none;
 }
-
-#monthly li:first-of-type,#yearly li:first-of-type {
-  font-size: 30px;
-  border-bottom: 1px solid gainsboro;
-  color: black;
-  padding-bottom: 50px;
-}
-#monthly li,#yearly li {
-  height: 40px;
+#monthly li, #yearly li {
   color: gray;
-  padding-top: 10px;
+  padding: 10px;
 }
-#monthly li:nth-child(even),#yearly li:nth-child(even) {
+#monthly li:nth-child(even), #yearly li:nth-child(even) {
   background-color: whitesmoke;
 }
 
- #monthly li:nth-child(2),#yearly li:nth-child(2) {
-   font-size: 20px;
-   padding-top: 10px;
-   padding-bottom: 50px;
-   color: black;
- }
- #monthly li:last-of-type,#yearly li:last-of-type {
-   margin-top: 10px;
- }
+.supplements {
+  border-bottom: 1px solid gainsboro;
+  text-align: center;
+  padding-bottom: 80px;
+  background-color: whitesmoke;
+  margin-top: -20px;
+}
+/* carousel */
+.carousel {
+  width: 90%;
+  height: 600px;
+  margin-left: 5%;
+}
+.carousel-inner .item img {
+  width: 70%;
+  height: 550px;
+  margin-left: 15%;
+  margin-top: 25px;
+}
 
 
 
-
-
-
-
-
-
-
+/* footer */
 footer {
-
+ width: 100%;
+ margin-top: 100px;
+ text-align: center;
+}
+.social-button img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.social-button:not(:last-child) {
+  margin-right: 10px;
+}
+footer h4 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  color: gray;
+  font-family: serif;
+  font-size: 16px;
 }
