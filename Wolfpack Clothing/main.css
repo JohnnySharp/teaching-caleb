@@ -12,15 +12,19 @@ nav {
 .navbar {
   position: relative;
   background-color: black;
+  min-height: 40px !important;
 }
+
 
 .nav.navbar-nav li a {
   color: white;
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
 }
 
 .social-button img {
   height: 20px;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 10px;
   border-radius: 100%;
 }
@@ -38,14 +42,24 @@ nav {
   margin-left: 20px;
 }
 .nav.navbar-nav.navbar-right li a {
+  padding-bottom: 5px;
+  display: inline;
   color: white;
 }
 
+.btn-md {
+  background-color: black;
+  color: white;
+  border: none;
+
+}
+
 .glyphicon-shopping-cart {
-  margin-right: 10px;
-  font-size: 15px;
+  padding-top: 10px;
+  margin-right: : 10px;
+  font-size: 20px;
 }
-.glyphicon-user {
-  margin-right: 10px;
-  font-size: 15px;
-}
+/* .glyphicon-user {
+  padding-top: 10px;
+  font-size: 20px;
+} */
