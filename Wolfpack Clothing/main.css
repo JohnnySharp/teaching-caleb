@@ -1,14 +1,10 @@
 body, html {
   padding: 0;
   margin: 0;
-  height: 1000px;
-  background-image: url("/Users/calebsharp/Documents/GitHub/teaching-caleb/Wolfpack Clothing/wolfpack-main.jpg");
-  background-position: -900px;
-  width: 100%;
 }
 
 .primary-color {
-  color: #5f9ea0;
+  color: #556b2f;
 }
 * {
   border-radius: 0 !important;
@@ -18,7 +14,6 @@ nav {
   font-size: 12px;
   font-family: monospace;
 }
-
 
 /* head nav */
 .navbar {
@@ -56,7 +51,8 @@ nav {
   color: white;
   font-size: 25px;
 }
-/* nav right */
+
+/* head nav right */
 .nav.navbar-nav.navbar-right li a {
   display: inline;
 }
@@ -79,18 +75,21 @@ nav {
 }
 
 /* brand name */
-.brand-name h1 {
-  font-family: monospace;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: underline;
-  padding: 0;
-  margin: 0;
-  /* display: inline; */
+.nav.navbar-nav.brand-name li a {
+  font-size: 25px;
+  margin-right: 5px;
 }
 
-
 /* nav 2 */
+.background-image {
+  height: 1000px;
+  background-image: url("/Users/calebsharp/Documents/GitHub/teaching-caleb/Wolfpack Clothing/wolfpack-main.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
 .nav2 {
   position: relative;
   top: 25px;
@@ -110,6 +109,10 @@ nav {
   font-size: 14px;
   font-weight: bold;
 }
+.nav2 ul li a:visited {
+  text-decoration: none;
+  color: black;
+}
 .nav2 ul li a:hover {
   color: black;
   background-color: inherit;
@@ -122,7 +125,6 @@ nav {
   height: 90px;
   margin-left: 42%;
   margin-top: -50px;
-
 }
 .nav.nav-tabs.navbar-right {
   position: relative;
@@ -131,9 +133,51 @@ nav {
 }
 
 /* main */
-.main {
+.image-text {
   position: relative;
   height: 700px;
   width: 100%;
   top: 10px;
+}
+.image-text h1 {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: trebuchet;
+  color: #333;
+  margin-left: 400px;
+  margin-top: 150px;
+}
+.image-text h1 a:link {
+  color: #333;
+  text-decoration: none;
+}
+.image-text h1 a:visited {
+  color: #333;
+  text-decoration: none;
+}
+.image-text h1 a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.button {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: trebuchet;
+  color: #333;
+  margin-left: 520px;
+  padding-left: 5px;
+  border: 2px solid #333;
+  margin-right: 570px;
+}
+.button:link {
+  text-decoration: none;
+}
+.button:visited {
+  text-decoration: none;
+}
+.button:hover {
+  color: #333;
+  text-decoration: none;
 }
