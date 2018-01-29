@@ -1,0 +1,105 @@
+body, html {
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: impact;
+}
+
+/* brand colors */
+.primary-color {
+  color: royalblue;
+}
+.secondary-color {
+  color: black;
+}
+
+/* navbar */
+.navbar {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  border-bottom: none;
+  height: 20px;
+}
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+.btn-default {
+  color: white;
+  background-color: dimgray;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+
+/* top */
+.top-body {
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+.blue-background {
+  position: relative;
+  width: 100%;
+  height: 630px;
+  top: -10px;
+}
+.top-body h2 {
+  position: relative;
+  margin-top: 130px;
+  text-align: center;
+  font-size: 40px;
+}
+.input-group {
+ margin: -300px auto;
+ float: none;
+ width: 550px;
+ height: 40px;
+}
+.form-control {
+  height: 40px;
+}
+
+/* cycle */
+.gly-rotate-90 {
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+}
+.gly-rotate-180 {
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+}
+.gly-rotate-270 {
+  display: inline-block;
+  -webkit-transform: rotate(270deg);
+
+}
+.cycle-container {
+  position: relative;
+  width: 1200px;
+}
+#cycle-flow {
+ display: grid;
+ grid-template-columns: 150px 150px 150px;
+ color: #444;
+ width: 450px;
+ float: left;
+ background-color: yellow;
+}
+.box {
+ padding: 30px;
+ font-size: 60px;
+ text-align: center;
+}
+#cycle-text {
+  top: -450px;
+  width: 735px;
+  text-align: center;
+  float: right;
+  background-color: blue;
+}

@@ -1,0 +1,285 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.primary-color {
+  color: #556b2f;
+}
+* {
+  border-radius: 0 !important;
+}
+
+nav {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+/* head nav */
+.navbar {
+  position: relative;
+  background-color: black;
+  min-height: 38px !important;
+  margin: 0;
+  border: none;
+}
+.nav.navbar-nav li a {
+  color: white;
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+}
+.nav.navbar-nav li a:link {
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav.navbar-nav li a:hover {
+  text-decoration: none;
+  color: white;
+}
+.social-button img {
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+.social-button:last-of-type {
+  margin-right: 10px;
+}
+.nav.navbar-nav.brand-name {
+  margin-left: 10%;
+  color: white;
+  font-size: 25px;
+}
+
+/* head nav right */
+.nav.navbar-nav.navbar-right li a {
+  display: inline;
+}
+.btn-md {
+  color: black;
+  padding-top: 10px;
+  margin-top: 1px;
+}
+.navbar-right li .btn-md {
+  border: none;
+  color: black;
+}
+.navbar-right li .btn-md:hover {
+  color: black;
+}
+.glyphicon {
+  font-size: 15px;
+}
+
+/* brand name */
+.nav.navbar-nav.brand-name li a {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+/* nav 2 */
+.background-image {
+  height: 1000px;
+  background-image: url("wolfpack-main.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.nav2 {
+  position: relative;
+  top: 25px;
+  width: 100%;
+  height: 100px;
+}
+.nav.nav-tabs {
+  border: none;
+}
+.nav.nav-tabs {
+  margin-left: 10px;
+}
+.nav.nav-tabs li {
+  padding-left: 60px;
+}
+.nav.nav-tabs li a:link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav.nav-tabs li a:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav.nav-tabs li a:hover {
+  color: black;
+  background-color: inherit;
+  text-decoration: none;
+  border: none;
+  transition: 0.5s;
+  box-shadow: 0px 1px  #556b2f;
+}
+.nav.nav-tabs.navbar-right li {
+  margin-right: 20px;
+}
+.brand-logo img {
+  height: 90px;
+  margin-left: 43%;
+  margin-top: -50px;
+}
+.nav.nav-tabs.navbar-right {
+  position: relative;
+  margin-right: 80px;
+  top: -80px;
+}
+
+/* main */
+.image-text {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  top: 10px;
+}
+.image-text h1 {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: trebuchet;
+  color: black;
+  margin-left: 400px;
+  margin-top: 150px;
+}
+.image-text h1 a:link {
+  color: black;
+  text-decoration: none;
+}
+.image-text h1 a:visited {
+  color: black;
+  text-decoration: none;
+}
+.image-text h1 a:hover {
+  color: black;
+  text-decoration: none;
+}
+.shop-now-button {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: trebuchet;
+  color: black;
+  margin-left: 520px;
+  padding: 5px;
+  border: 2px solid black;
+  margin-right: 570px;
+}
+.shop-now-button:link {
+  text-decoration: none;
+}
+.shop-now-button:visited {
+  text-decoration: none;
+}
+.shop-now-button:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* body divide */
+.body-divide {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+.body-divide h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.body-divide h3 small {
+  color: white;
+}
+.bigger-text  {
+  font-size: 40px;
+}
+/* popular t's - shop itmes */
+.btn-primary {
+  background-color: #556b2f;
+}
+.btn-primary:hover {
+  background-color: #556b2f;
+}
+.glyphicon-star-empty {
+  font-size: 20px;
+}
+.shop-items-top {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.shop-items-header {
+  border-bottom: 2px solid black;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.shop-items-header h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+.row {
+  margin-right: 5px;
+}
+.thumbnail {
+  border: 1px solid black;
+}
+.thumbnail img {
+  height: 230px;
+  margin-top: 10px;
+}
+
+/* headwear */
+.headwear {
+  width: 100%;
+  height: 450px;
+  background-image: url("headwear background.jpg");
+}
+.side-image-container img {
+  position: absolute;
+  float: left;
+}
+.side-image img {
+  position: absolute;
+  float: left;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.headwear-head {
+  display: inline-block;
+  float: right;
+  width: 57%;
+  text-align: center;
+}
+.headwear-head h2 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 50px;
+  color: crimson;
+  border-bottom: 4px solid crimson;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.headwear-description {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+}
