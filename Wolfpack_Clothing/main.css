@@ -186,36 +186,35 @@ nav {
 
 /* body divide */
 .body-divide {
+  position: relative;
   width: 100%;
-  height: 80px;
+  height: 40px;
   background-color: black;
 }
 .body-divide h3 {
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-family: monospace;
   font-weight: bold;
-  padding-top: 20px;
 }
 .body-divide h3 small {
   color: white;
 }
 .bigger-text  {
-  font-size: 40px;
+  font-size: 30px;
 }
 /* popular t's - shop itmes */
 .popular-shirt {
-  display: inline-block;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 680px;
 }
 .popular-shirt-header {
   border-bottom: 2px solid black;
   margin-left: 150px;
   margin-right: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 .popular-shirt-header h2 {
   text-align: center;
@@ -240,37 +239,117 @@ nav {
 
 /* headwear */
 .headwear {
-  display: inline-block;
   position: relative;
   width: 100%;
-  height: 450px;
-  background-image: url("headwear-background.jpg");
-  margin-top: 40px;
+  height: auto;
+  margin-bottom: -20px;
 }
-.side-image-container img {
-  position: absolute;
+.headwear img {
+  position: relative;
+  float: right;
 }
 .side-image img {
   position: absolute;
+  margin-top: 160px;
   margin-left: 40px;
-  margin-top: 60px;
+  background-color: inherit;
 }
 .headwear-head {
-  float: right;
-  width: 57%;
+  position: absolute;
+  margin-left: 485px;
+  margin-top: 20px;
+  width: auto;
   text-align: center;
 }
 .headwear-head h2 {
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 50px;
-  color: crimson;
-  border-bottom: 4px solid crimson;
+  font-weight: 900;
+  font-size: 60px;
+  color: white;
+  border-bottom: 4px solid white;
   margin-left: 60px;
   margin-right: 60px;
 }
 .headwear-description {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin-left: 530px;
+  margin-top: 150px;
+}
+.headwear-description .thumbnail {
+  height: 300px;
+  background-color: rgba(0,0,0,0.6);
+}
+.headwear-description .caption {
+  text-align: center;
+  color: white;
+}
+.headwear-description .caption h3 {
+  text-decoration: underline;
+}
+.headwear-description .caption p {
+  line-height: 2.15em;
+}
+.headwear-description .caption .style {
+  margin-top: 20px;
+  width: 100px;
+}
+.headwear-description .caption .men {
+  margin-top: 50px;
+  width: 80px;
+  background-color: #556b2f;
+  color: white;
+}
+.headwear-description .caption .women {
+  margin-top: 50px;
+  width: 80px;
+  background-color: #556b2f;
+  color: white;
+}
+
+/* watches */
+.watches {
+  width: 100%;
+  height: auto;
+}
+.watches .jumbotron {
+  height: auto;
+}
+.watch-head {
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+.watch-head h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.watches .caption .watch {
+  background-color: #556b2f;
+  color: white;
+}
+.watches .row {
+  margin-left: 60px;
+}
+.watches .thumbnail {
+  width: 250px;
+}
+.watches .thumbnail img {
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.watch-bottom {
+  width: 100%;
+  margin-top: 20px;
+}
+.watch-bottom-left {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.watch-bottom-right {
+  width: 40%;
   float: right;
-  background-color: white;
-  width: 45%;
+  margin-right: 5%;
 }
