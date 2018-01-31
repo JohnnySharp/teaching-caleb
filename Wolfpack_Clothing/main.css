@@ -353,3 +353,121 @@ nav {
   float: right;
   margin-right: 5%;
 }
+
+/* footer */
+footer {
+  background-color: rgba(85, 107, 47, 0.4);
+}
+/* .footer-left {
+  position: relative;
+  width: 70%;
+}
+.footer-right {
+ position: relative;
+ float: right;
+} */
+.customer-care {
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 250px;
+}
+.customer-care h4 {
+  font-weight: 300;
+  font-family: monospace;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+.customer-care h4::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  bottom: 0;
+  left: 35%;
+  border-bottom: 1px solid black;
+}
+.customer-care p {
+  font-weight: 200;
+}
+.customer-care p a:link {
+  color: black;
+  text-decoration: none;
+  letter-spacing: .25em;
+}
+.customer-care p a:visited {
+  color: black;
+  text-decoration: none;
+}
+.company {
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -165px;
+}
+.company h4 {
+  font-weight: 300;
+  font-family: monospace;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+.company h4::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  bottom: 0;
+  left: 40%;
+  border-bottom: 1px solid black;
+}
+.company p {
+  font-weight: 200;
+}
+.company p a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: .25em;
+}
+.social {
+ text-align: center;
+ padding-top: 80px;
+}
+.social .social-button img {
+  display: inline-block;
+  height: 30px;
+  margin: 5px 30px;
+}
+.legal {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.legal p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 10px;
+  line-height: .5em;
+}
+.legal p .copyright {
+  letter-spacing: .25em;
+}
+.legal p .terms {
+  word-spacing: .25em;
+  letter-spacing: .25em;
+}
+.legal p a:link {
+  color: black;
+  text-decoration: none;
+}
+.legal p a:visited {
+  color: black;
+  text-decoration: none;
+}
+.pay-option {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.pay-option img {
+  display: inline-block;
+  height: 30px;
+  margin: 5px 40px;
+}
