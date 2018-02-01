@@ -1,6 +1,6 @@
 body {
  margin: 0;
- background-image: url("/Users/calebsharp/Documents/GitHub/teaching-caleb/Wolfpack_Clothing/wolfpack-main.jpg");
+ background-image: url("wolfpack-main.jpg");
  background-repeat: none;
  background-attachment: fixed;
  background-position: center;
