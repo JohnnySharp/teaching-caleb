@@ -7,11 +7,11 @@
 
 body {
  margin: 0;
- background-image: url("wolfpack-main.jpg");
  background-repeat: none;
  background-attachment: fixed;
- background-position: center;
+ background-position: center; 
 }
+
 
 hr, image {
   border: 0;
