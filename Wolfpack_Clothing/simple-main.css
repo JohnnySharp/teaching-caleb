@@ -1,13 +1,4 @@
 @media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:landscape) {
-  h1 {
-    font-size: 16px;
-  }
-  h3 {
-    font-size: 12px;
-  }
-  /* h3 a {
-    margin-top: -20px;
-  } */
 }
 
 body {
