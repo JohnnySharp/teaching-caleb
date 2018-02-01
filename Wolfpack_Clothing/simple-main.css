@@ -36,6 +36,7 @@ h3 {
   font-weight: bold;
 }
 .jumbotron {
+  /* position: absolute; */
   background: inherit;
   height: 450px;
 }
