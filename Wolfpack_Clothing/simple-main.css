@@ -1,6 +1,6 @@
 @media screen and (max-width: 375px) {
   /* comes into effect for screens less than or equal to 320 pixels */
-  #body {
+  body {
     width: 80px ;
   }
 }
@@ -44,7 +44,6 @@ h3 {
   font-weight: bold;
 }
 .jumbotron {
-  /* position: absolute; */
   background: inherit;
   height: 450px;
 }
