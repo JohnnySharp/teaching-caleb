@@ -16,10 +16,6 @@ body {
 }
 
 
-hr, image {
-  border: 0;
-}
-
 a, body {
   color: #333;
 }
