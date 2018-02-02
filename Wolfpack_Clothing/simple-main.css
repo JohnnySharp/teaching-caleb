@@ -82,7 +82,7 @@ h3:nth-of-type(2), h3:nth-of-type(3) {
   body {
     background-repeat: none;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 45% 40%;
   }
   .navbar-header .navbar-brand {
     font-size: 18px;
