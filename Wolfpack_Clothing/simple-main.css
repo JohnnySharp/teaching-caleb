@@ -1,6 +1,12 @@
-@media only screen and (max-width : 800px) {
+@media only screen and (min-width : 375px) and (max-width: 667px) and (orientation:portrait) {
   .navbar {
     background-color: yellow;
+  }
+  .btn-lg {
+    background-color: #808000;
+    color: #333;
+    border-color: #333;
+    text-decoration: none;
   }
 }
 
