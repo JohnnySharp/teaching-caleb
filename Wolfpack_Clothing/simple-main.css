@@ -1,18 +1,3 @@
-@media only screen and (min-width : 375px) and (max-width: 667px) and (orientation:portrait) {
-  .navbar {
-    background-color: yellow;
-  }
-  .btn-lg {
-    background-color: #808000;
-    color: #333;
-    border-color: #333;
-    text-decoration: none;
-    margin-left: -30px;
-  }
-}
-
-
-
 body {
  margin: 0;
  background-repeat: none;
@@ -90,4 +75,50 @@ h3:nth-of-type(2), h3:nth-of-type(3) {
   color: #333;
   text-decoration: none;
   border-color: #333;
+}
+
+
+@media only screen and (max-width : 375px) {
+  body {
+
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .navbar-header .navbar-brand {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .jumbotron h1 {
+    margin-left: 150px;
+    margin-top: 200px;
+  }
+  .jumbotron p {
+    margin-left: 155px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .btn-lg {
+    background-color: #808000;
+    color: #333;
+    border-color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -300px;
+    margin-left: 200px;
+  }
+  h3 a {
+    margin-left: 20px;
+  }
+  h3:first-of-type {
+    margin-top: -25px;
+  }
+  h3:nth-of-type(2), h3:nth-of-type(3), h3:nth-of-type(4) {
+    margin-top: -35px;
+  }
 }
