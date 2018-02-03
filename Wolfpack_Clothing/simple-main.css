@@ -110,6 +110,12 @@ h3:nth-of-type(2), h3:nth-of-type(3), h3:nth-of-type(4) {
     margin-top: 2px;
     color: black !important;
  }
+ .navbar-collapse ul li:nth-of-type(5) {
+   margin-right: 5px;
+ }
+ .navbar-collapse ul li:nth-of-type(7) {
+   margin-left: 5px;
+ }
   h1 {
     font-size: 25px;
   }
@@ -135,7 +141,7 @@ h3:nth-of-type(2), h3:nth-of-type(3), h3:nth-of-type(4) {
     margin-left: 60px;
   }
 }
-/* @media only screen and (min-width : 667px) {
+@media only screen and (min-width : 667px) {
   body {
     background-repeat: none;
     background-attachment: fixed;
@@ -149,7 +155,7 @@ h3:nth-of-type(2), h3:nth-of-type(3), h3:nth-of-type(4) {
     margin-left: 45px;
   }
   .btn-lg {
-    margin-top: -505px;
+    margin-top: -50px;
     margin-left: 95px;
   }
-} */
+}
