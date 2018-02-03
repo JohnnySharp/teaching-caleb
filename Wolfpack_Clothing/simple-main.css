@@ -88,6 +88,12 @@ h3:nth-of-type(2), h3:nth-of-type(3), h3:nth-of-type(4) {
     background-attachment: fixed;
     background-position: 45% 35%;
   }
+  .navbar {
+    border-bottom: 1px solid black;
+  }
+  .jumbotron {
+    background: inherit;
+  }
   .navbar-header .navbar-brand {
     font-size: 18px;
   }
