@@ -80,7 +80,7 @@ h3:nth-of-type(2), h3:nth-of-type(3) {
 }
 
 
-@media only screen and (min-width : 375px) {
+@media only screen and (min-width : 375px) and (max-width: 667px) {
   body {
     background-repeat: none;
     background-attachment: fixed;
@@ -98,6 +98,8 @@ h3:nth-of-type(2), h3:nth-of-type(3) {
     font-size: 10px;
     font-weight: bold;
     display: inline-block;
+    margin: -5px;
+    margin-top: 2px;
     color: black !important;
  }
   h1 {
@@ -125,7 +127,7 @@ h3:nth-of-type(2), h3:nth-of-type(3) {
     margin-left: 60px;
   }
 }
-@media only screen and (min-width : 667px) {
+/* @media only screen and (min-width : 667px) {
   body {
     background-repeat: none;
     background-attachment: fixed;
@@ -142,4 +144,4 @@ h3:nth-of-type(2), h3:nth-of-type(3) {
     margin-top: -505px;
     margin-left: 95px;
   }
-}
+} */
