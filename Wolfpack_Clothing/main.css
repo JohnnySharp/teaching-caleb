@@ -382,14 +382,10 @@ footer {
 .customer-care p {
   font-weight: 200;
 }
-.customer-care p a:link {
+.customer-care p a:link, .customer-care p a:visited {
   color: black;
   text-decoration: none;
   letter-spacing: .25em;
-}
-.customer-care p a:visited {
-  color: black;
-  text-decoration: none;
 }
 .company {
   text-align: center;
