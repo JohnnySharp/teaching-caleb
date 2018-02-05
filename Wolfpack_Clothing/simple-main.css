@@ -16,11 +16,11 @@
 .jumbotron h1 {
   font-family: monospace;
   color: white;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 .jumbotron p {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .row h1 {
   display: none;
@@ -36,6 +36,7 @@ footer {
   margin-top: -30px;
 }
 .customer-care {
+  padding-top: 20px;
   float: left;
   width: 50%;
   padding-left: 10px;
@@ -51,19 +52,21 @@ footer {
 }
 .company {
   text-align: center;
-  padding-top: .5px;
+  padding-top: 20px;
   line-height: .75em;
 }
 .company h4 {
   font-size: 14px;
+  padding-right: 10px;
 }
 .company p a {
   color: black;
   font-weight: 200;
+  padding-right: 10px;
 }
 .social {
  text-align: center;
- padding-top: 10px;
+ padding-top: 35px;
 }
 .social .social-button img {
   display: inline-block;
@@ -71,7 +74,7 @@ footer {
   margin: 5px 15px;
 }
 .legal {
-  padding-top: 20px;
+  padding-top: 35px;
 }
 .legal p {
   text-align: center;
