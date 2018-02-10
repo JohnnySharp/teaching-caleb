@@ -7,7 +7,8 @@
  font-size: 16px;
 }
 .jumbotron {
-  background-color: gray;
+  background-image: url("wolfpack-main.jpg");
+  background-position: center;
   text-align: center;
 }
 .jumbotron .container {
@@ -16,20 +17,23 @@
 .jumbotron h1 {
   font-family: monospace;
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 .jumbotron p {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .row h1 {
   display: none;
 }
 .btn-lg, .btn-lg:hover {
-  background-color: #808000;
+  background-color: #556b2f;
   border-color: #333;
 }
-
+.modal .modal-body p {
+  color: black;
+  font-size: 14px;
+}
 /* footer */
 footer {
   background-color: rgba(85, 107, 47, 0.4);
@@ -48,7 +52,7 @@ footer {
 }
 .customer-care p a {
   color: black;
-  font-weight: 200;
+  font-weight: 400;
 }
 .company {
   text-align: center;
@@ -61,25 +65,23 @@ footer {
 }
 .company p a {
   color: black;
-  font-weight: 200;
+  font-weight: 400;
   padding-right: 10px;
 }
 .social {
  text-align: center;
- padding-top: 35px;
+ padding-top: 30px;
+ padding-bottom: 20px;
 }
 .social .social-button img {
   display: inline-block;
   height: 30px;
   margin: 5px 15px;
 }
-.legal {
-  padding-top: 35px;
-}
 .legal p {
   text-align: center;
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 400;
 }
 .legal p .copyright {
   letter-spacing: .15em;
@@ -99,4 +101,200 @@ footer {
   height: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+@media (min-width:413px) {
+  .jumbotron p {
+    font-weight: 400;
+    padding-bottom: 25px;
+  }
+  .btn-lg {
+    margin-bottom: 25px;
+  }
+  .social {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .pay-option {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+@media (min-width:767px) {
+  .navbar {
+    border-bottom: 2px solid black;
+  }
+  .navbar-header .navbar-brand {
+    font-size: 24px;
+  }
+  .navbar-right li a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .jumbotron {
+    padding-top: 125px;
+    padding-bottom: 100px;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  .jumbotron p {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .btn-lg {
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid #333;
+  }
+  footer {
+    padding-top: 50px;
+  }
+  .customer-care {
+    padding-left: 100px;
+  }
+  .customer-care h4 {
+    font-size: 20px;
+  }
+  .customer-care p a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .company {
+    padding-right: 80px;
+  }
+  .company h4 {
+    font-size: 20px;
+  }
+  .company p a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .social {
+    padding-top: 75px;
+    padding-bottom: 25px;
+  }
+  .legal p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .pay-option {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width:1023px) {
+  .navbar {
+    height: 70px;
+  }
+  .navbar-header .navbar-brand {
+    padding-top: 20px;
+    font-size: 35px;
+  }
+  .navbar-right li a {
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .jumbotron h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+  }
+  .jumbotron p {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+  .btn-lg {
+    font-size: 30px;
+    border: 2px solid #333;
+  }
+  .customer-care h4 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .customer-care p a {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1em;
+  }
+  .company h4 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .company p a {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1em;
+  }
+  .social .social-button img {
+    height: 45px;
+    margin: 5px 30px;
+  }
+  .social {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+  .legal p {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .pay-option img {
+    height: 45px;
+    margin: 5px 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .jumbotron {
+    padding-top: 150px;
+    height: 600px;
+  }
+  .jumbotron p {
+    color: white;
+    padding-bottom: 50px;
+  }
+  .row h1 {
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-right: 40px;
+    color: black;
+  }
+  footer {
+    padding-top: 200px;
+  }
+  .customer-care {
+    padding-left: 300px;
+  }
+  .customer-care h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .company {
+    padding-right: 300px;
+  }
+  .company h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .customer-care p a, .company p a {
+    line-height: 1.5em;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  .social {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+  .legal p {
+    font-size: 14px;
+  }
+  .pay-option {
+    padding-top: 25px;
+  }
+  .pay-option img {
+    height: 30px;
+    margin: 10px;
+  }
 }
